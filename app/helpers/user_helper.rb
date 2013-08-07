@@ -1,3 +1,3 @@
 module UserHelper
-	has_many :Tweet
+#	has_many :Tweet
 end
