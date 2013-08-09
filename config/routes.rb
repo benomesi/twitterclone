@@ -1,6 +1,7 @@
 Twitterclone::Application.routes.draw do
 
   root :to => "home#index"
+  get "sign_in" => "sessions#new"
   resources :user do
     resources :tweet
   end

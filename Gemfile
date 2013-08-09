@@ -10,6 +10,9 @@ gem 'sqlite3'
 gem 'haml'
 gem 'haml-rails'
 
+# Bcrypt
+gem 'bcrypt-ruby', :require => 'bcrypt'
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
